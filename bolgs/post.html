@@ -1,0 +1,540 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Post</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,700|Playfair+Display:400,400i,700,700i" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/lib.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--<script src="js/plugins/purify.min.js" type="text/javascript"></script>
+--><!-- the main fileinput plugin file -->
+<script src="js/plugins/fileinput.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<header class="flt_left_w100">
+<div class="top_hed container-fluid padlr0">
+<div class="container">
+  <div class="col-sm-4">
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+   <!-- <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>-->
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+       Latest Blog post 1
+      </div>
+
+      <div class="item">
+       Latest Blog post 2
+      </div>
+    
+      <div class="item">
+         Latest Blog post 3
+      </div>
+
+      <div class="item">
+        hghghggchggh
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+     <i class="fa fa-angle-left"></i>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+  </div><!-- col-sm-4 --> 
+  <div class="col-sm-8">
+  <div class="social_prt flt_left_w100">
+						<ul class="social-icon">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fa fa-tumblr"></i></a></li>
+						</ul>
+						<!--<a href="#" class="btn-search fa fa-search show_hide"></a>-->
+					</div>
+  </div><!-- col-sm-4 -->
+  </div><!-- container -->
+</div><!-- top_hed -->
+
+
+  <nav class="navbar" data-spy="affix" data-offset-top="39">
+    <div class="container pad0">
+              <div class="navbar-header"> 
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+        <a class="navbar-brand" href="index.html"><span class="Lcolor">&lt;/&gt;</span>Blo<span style="color:#F7C104">GC</span>ode</a> 
+        </div><!-- navbar-header -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Post</a></li>
+        </ul>
+        </div><!--navbar-collapse -->
+      
+    </div><!-- container --> 
+  </nav>
+</header>
+
+
+<article class="flt_left_w100">
+<div class="container pad0"> 
+<div class="col-sm-9 padl0 padrr0">
+<h1 class="text-center">Post your Query</h1>
+<div class="LvHeding_style cusHeding"><span><img src="images/shape.PNG" width="30" height="30" alt=""></span></div><!-- LvHeding_style -->
+<div class="post_query_sec flt_left_w100">
+<form>
+<div class="form-group">
+      <label for="qus">Your question</label>
+      <input class="form-control input-lg" id="qus" type="text">
+    </div><!-- form-group -->
+    <div class="form-group">
+             <input id="file-1" type="file" class="file" data-upload-url="#">        
+    </div><!-- form-group -->
+    <div class="form-group">
+    <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Releted topic
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li>
+        <div class="checkbox">
+           <label>
+               <input type="checkbox"><span class="checkbox-material"><span class="check"></span></span> Checkbox
+            </label>                    
+         </div><!--checkbox-->
+       </li>
+       <li>
+        <div class="checkbox">
+           <label>
+               <input type="checkbox"><span class="checkbox-material"><span class="check"></span></span> Checkbox
+            </label>                    
+         </div><!--checkbox-->
+       </li>
+       <li>
+        <div class="checkbox">
+           <label>
+               <input type="checkbox"><span class="checkbox-material"><span class="check"></span></span> Checkbox
+            </label>                    
+         </div><!--checkbox-->
+       </li>
+       <li>
+        <div class="checkbox">
+           <label>
+               <input type="checkbox"><span class="checkbox-material"><span class="check"></span></span> Checkbox
+            </label>                    
+         </div><!--checkbox-->
+       </li>      
+    </ul>
+  </div><!-- dropdown -->
+
+           
+    </div><!-- form-group -->
+    <button type="button" class="btn btn-default btn-lg">Save</button>
+
+    </form>
+</div><!--post_query_sec-->
+<div class="Posted_sec flt_left_w100">
+<div class="postQ_Sec flt_left_w100">
+<div class="postQUserPic">
+<a href="javascript:void(0);"><img src="images/avatarF_2.PNG" alt="" class="img-circle"></a>
+</div><!-- postQUserPic -->
+<h4><a href="javascript:void(0);">Any question for us?</a><a href="javascript:void(0);" class="userQEdit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</a></h4>
+<div class="postLikeBar flt_left">
+<a href="javascripi:void(0);" class="LikeBarCat AnsIcon"><i class="fa fa-commenting" aria-hidden="true"></i><span class="AnsCount AlCount">0</span>Answer</a>
+<a href="javascripi:void(0);" class="LikeBarCat ViewIcon"><i class="fa fa-eye" aria-hidden="true"></i><span class="ViewCount AlCount">0</span>View</a>
+<a href="javascripi:void(0);" class="LikeBarCat LikeIcon"><i class="fa fa-heart" aria-hidden="true"></i><span class="LikeCount AlCount">0</span>Like</a>
+<!--<a href="javascripi:void(0);" class="LikeBarCat UnlikeIcon"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><span class="UnlikeCount AlCount">0</span>Unlike</a>-->
+<a href="javascripi:void(0);" class="LikeBarCat HelpfullIcon"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="HelpfullCount AlCount">0</span>HelpFull</a>
+<a href="javascripi:void(0);" class="LikeBarCat UnlikeIcon"><i class="fa fa-share" aria-hidden="true"></i><span class="UnlikeCount AlCount">0</span>Share</a>
+</div><!-- postLikeBar -->
+<div class="releted_tagSec">
+<a href="javascript:void(0);" class="label-primary releted_tag">Css</a>
+<a href="javascript:void(0);" class="label-primary releted_tag">Html</a>
+<a href="javascript:void(0);" class="label-primary releted_tag">Java</a>
+</div><!-- releted_tagSec -->
+<a href="javascript:void(0);" class="QuserPostnameTime"><span class="PostBy">Posted by Shiya</span><span class="QPostDate_Time">Just now</span></a>
+</div><!--postQ_Sec-->
+<div class="PostReletedPic"><img src="images/cate1.jpg" alt="" class="img-responsive"></div><!-- PostReletedPic -->
+<div class="AnswerPrt flt_left_w100">
+<h4 class="panswerHeding"><a href="javascript:void(0);">Answer</a> <a href="javascript:void(0);" class="userQEdit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</a></h4>
+<div class="Panswer_para">
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+
+<div class="postLikeBar flt_left">
+<a href="javascripi:void(0);" class="LikeBarCat AnsIcon"><i class="fa fa-comment-o" aria-hidden="true"></i><span class="CommentCount AlCount">0</span>Comment</a>
+<a href="javascripi:void(0);" class="LikeBarCat ViewIcon"><i class="fa fa-eye" aria-hidden="true"></i><span class="ViewCount AlCount">0</span>View</a>
+<a href="javascripi:void(0);" class="LikeBarCat LikeIcon"><i class="fa fa-heart" aria-hidden="true"></i><span class="LikeCount AlCount">0</span>Like</a>
+<!--<a href="javascripi:void(0);" class="LikeBarCat UnlikeIcon"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><span class="UnlikeCount AlCount">0</span>Unlike</a>-->
+<a href="javascripi:void(0);" class="LikeBarCat HelpfullIcon"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="HelpfullCount AlCount">0</span>HelpFull</a>
+<a href="javascripi:void(0);" class="LikeBarCat UnlikeIcon"><i class="fa fa-share" aria-hidden="true"></i><span class="UnlikeCount AlCount">0</span>Share</a>
+</div><!-- postLikeBar -->
+<a href="javascript:void(0);" class="QuserPostnameTime"><span class="PostBy">Posted by Shiya</span><span class="QPostDate_Time">Just now</span></a>
+</div><!-- Panswer_para -->
+</div><!-- AnswerPrt -->
+<div class="PostComment_sec flt_left_w100">
+<div class="PostCommentInSec">
+<h4 class="panswerHeding"><a href="javascript:void(0);">Comment</a> <a href="javascript:void(0);" class="userQEdit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</a></h4>
+<div class="UserCmmtSec VerBor_Line flt_left_w100">
+<div class="userPic"><img src="images/avatarM_1.PNG" alt="" class="img-circle"></div><!-- userPic -->
+<div class="UserCommentPrt">
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<div class="postLikeBar">
+<a href="javascripi:void(0);" class="LikeBarCat AnsIcon"><i class="fa fa-comments" aria-hidden="true"></i><span class="ReplyCount AlCount">0</span>Reply</a>
+<a href="javascripi:void(0);" class="LikeBarCat ViewIcon"><i class="fa fa-eye" aria-hidden="true"></i><span class="ViewCount AlCount">0</span>View</a>
+<a href="javascripi:void(0);" class="LikeBarCat LikeIcon"><i class="fa fa-heart" aria-hidden="true"></i><span class="LikeCount AlCount">0</span>Like</a>
+<!--<a href="javascripi:void(0);" class="LikeBarCat UnlikeIcon"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><span class="UnlikeCount AlCount">0</span>Unlike</a>-->
+<a href="javascripi:void(0);" class="LikeBarCat HelpfullIcon"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="HelpfullCount AlCount">0</span>HelpFull</a>
+</div><!-- postLikeBar -->
+<a href="javascript:void(0);" class="QuserPostnameTime"><span class="PostBy">Posted by Shiya</span><span class="QPostDate_Time">Just now</span></a>
+</div><!-- UserCommentPrt -->
+<div class="REplt_PRt flt_left_w100">
+<h5 class="panswerHeding"><a href="javascript:void(0);">Reply</a> <a href="javascript:void(0);" class="userQEdit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</a></h5>
+<div class="UserRplySec VerBor_Line flt_left_w100">       
+<div class="userPic"><img src="images/avatarM_1.PNG" alt="" class="img-circle"></div><!-- userPic -->
+<div class="UserCommentPrt">
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<div class="postLikeBar">
+<a href="javascripi:void(0);" class="LikeBarCat ViewIcon"><i class="fa fa-eye" aria-hidden="true"></i><span class="ViewCount AlCount">0</span>View</a>
+<a href="javascripi:void(0);" class="LikeBarCat LikeIcon"><i class="fa fa-heart" aria-hidden="true"></i><span class="LikeCount AlCount">0</span>Like</a>
+<!--<a href="javascripi:void(0);" class="LikeBarCat UnlikeIcon"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><span class="UnlikeCount AlCount">0</span>Unlike</a>-->
+<a href="javascripi:void(0);" class="LikeBarCat HelpfullIcon"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="HelpfullCount AlCount">0</span>HelpFull</a>
+</div><!-- postLikeBar -->
+<a href="javascript:void(0);" class="QuserPostnameTime"><span class="PostBy">Posted by Shiya</span><span class="QPostDate_Time">Just now</span></a>
+</div><!-- UserCommentPrt -->
+<div class="ADDRplySec flt_left_w100">
+<form class="AddBoxSec2 flt_left_w100">
+    <div class="form-group">
+      <label for="comment" class="CusLabel panswerHeding">Your Reply:</label>
+      <div class="col-sm-8">
+      <textarea class="form-control" rows="3" id="Reply"></textarea>
+           </div><!-- col-sm-6 -->
+    </div>
+    <div class="col-sm-4">
+     <button type="button" class="btn btn-default btn-lg">Add your Reply</button>
+     </div><!-- col-sm-6 -->
+       </form>
+</div><!-- ADDRplySec -->
+</div><!-- UserRplySec -->
+<div class="UserRplySec VerBor_Line flt_left_w100">      
+<div class="userPic"><img src="images/avatarM_1.PNG" alt="" class="img-circle"></div><!-- userPic -->
+<div class="UserCommentPrt">
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<div class="postLikeBar">
+<a href="javascripi:void(0);" class="LikeBarCat ViewIcon"><i class="fa fa-eye" aria-hidden="true"></i><span class="ViewCount AlCount">0</span>View</a>
+<a href="javascripi:void(0);" class="LikeBarCat LikeIcon"><i class="fa fa-heart" aria-hidden="true"></i><span class="LikeCount AlCount">0</span>Like</a>
+<!--<a href="javascripi:void(0);" class="LikeBarCat UnlikeIcon"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><span class="UnlikeCount AlCount">0</span>Unlike</a>-->
+<a href="javascripi:void(0);" class="LikeBarCat HelpfullIcon"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="HelpfullCount AlCount">0</span>HelpFull</a>
+</div><!-- postLikeBar -->
+<a href="javascript:void(0);" class="QuserPostnameTime"><span class="PostBy">Posted by Shiya</span><span class="QPostDate_Time">Just now</span></a>
+</div><!-- UserCommentPrt -->
+
+</div><!-- UserRplySec -->
+<div class="UserRplySec VerBor_Line flt_left_w100">
+       
+<div class="userPic"><img src="images/avatarM_1.PNG" alt="" class="img-circle"></div><!-- userPic -->
+<div class="UserCommentPrt">
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<div class="postLikeBar">
+<a href="javascripi:void(0);" class="LikeBarCat ViewIcon"><i class="fa fa-eye" aria-hidden="true"></i><span class="ViewCount AlCount">0</span>View</a>
+<a href="javascripi:void(0);" class="LikeBarCat LikeIcon"><i class="fa fa-heart" aria-hidden="true"></i><span class="LikeCount AlCount">0</span>Like</a>
+<!--<a href="javascripi:void(0);" class="LikeBarCat UnlikeIcon"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><span class="UnlikeCount AlCount">0</span>Unlike</a>-->
+<a href="javascripi:void(0);" class="LikeBarCat HelpfullIcon"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="HelpfullCount AlCount">0</span>HelpFull</a>
+</div><!-- postLikeBar -->
+<a href="javascript:void(0);" class="QuserPostnameTime"><span class="PostBy">Posted by Shiya</span><span class="QPostDate_Time">Just now</span></a>
+</div><!-- UserCommentPrt -->
+</div><!-- UserRplySec -->
+</div><!-- REplt_PRt -->
+</div><!-- UserCmmtSec -->
+  
+       
+
+<div class="UserCmmtSec VerBor_Line flt_left_w100">
+<div class="userPic"><img src="images/avatarM_1.PNG" alt="" class="img-circle"></div><!-- userPic -->
+<div class="UserCommentPrt">
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+<div class="postLikeBar">
+<a href="javascripi:void(0);" class="LikeBarCat AnsIcon"><i class="fa fa-comments" aria-hidden="true"></i><span class="ReplyCount AlCount">0</span>Reply</a>
+<a href="javascripi:void(0);" class="LikeBarCat ViewIcon"><i class="fa fa-eye" aria-hidden="true"></i><span class="ViewCount AlCount">0</span>View</a>
+<a href="javascripi:void(0);" class="LikeBarCat LikeIcon"><i class="fa fa-heart" aria-hidden="true"></i><span class="LikeCount AlCount">0</span>Like</a>
+<!--<a href="javascripi:void(0);" class="LikeBarCat UnlikeIcon"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i><span class="UnlikeCount AlCount">0</span>Unlike</a>-->
+<a href="javascripi:void(0);" class="LikeBarCat HelpfullIcon"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="HelpfullCount AlCount">0</span>HelpFull</a>
+</div><!-- postLikeBar -->
+<a href="javascript:void(0);" class="QuserPostnameTime"><span class="PostBy">Posted by Shiya</span><span class="QPostDate_Time">Just now</span></a>
+</div><!-- UserCommentPrt -->
+</div><!-- UserCmmtSec -->
+</div><!-- PostCommentInSec -->
+<div class="AddBoxSec ADDComment_box flt_left_w100">
+<form>
+    <div class="form-group">
+      <label for="comment" class="CusLabel panswerHeding">Your Comment:</label>
+      <div class="col-sm-8">
+      <textarea class="form-control" rows="3" id="comment"></textarea>
+           </div><!-- col-sm-6 -->
+    </div>
+    <div class="col-sm-4">
+     <button type="button" class="btn btn-default btn-lg">Add your Comment</button>
+     </div><!-- col-sm-6 -->
+       </form>
+</div><!-- ADDComment_box -->
+</div><!-- PostComment_sec -->
+<div class="AddBoxSec AddAnswer_sec flt_left_w100">
+<form>
+    <div class="form-group">
+      <label for="comment" class="CusLabel panswerHeding">Your Answer:</label>
+      <div class="col-sm-8">
+      <textarea class="form-control" rows="3" id="Answer"></textarea>
+           </div><!-- col-sm-6 -->
+    </div>
+    <div class="col-sm-4">
+     <button type="button" class="btn btn-default btn-lg">Add your Answer</button>
+     </div><!-- col-sm-6 -->
+       </form>
+</div><!-- AddAnswer_sec -->
+<div class="Login_boxSec flt_left_w100">
+<h5 class="panswerHeding Cred">Not login yet! please loging now</h5>
+<form>
+    <div class="input-group CusInput">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email" type="text" class="form-control" name="email" placeholder="User name/ Email">
+    </div>
+    <div class="input-group CusInput">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+     <button type="button" class="btn btn-default btn-lg">
+      <i class="fa fa-sign-in" aria-hidden="true"></i> Login
+    </button>
+   </form>
+</div><!-- Login_boxSec -->
+</div><!-- Posted_sec -->
+<div class="Login_boxSec flt_left_w100">
+<h5 class="panswerHeding Cred">Not member yet! please sign up now!!</h5>
+<form>
+<div class="form-group">
+<label for="inputdefault">First Name</label>
+    <div class="input-group">     
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email2" type="text" class="form-control" name="email" placeholder="First Name">
+    </div><!-- input-group -->
+    </div><!-- form-group -->
+    <div class="form-group">
+<label for="inputdefault">Last Name</label>
+    <div class="input-group">     
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  type="text" class="form-control" name="email" placeholder="Last Name">
+    </div><!-- input-group -->
+    </div><!-- form-group -->
+    <div class="form-group">
+<label for="inputdefault">User Name</label>
+    <div class="input-group">     
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  type="text" class="form-control" name="email" placeholder="User Name">
+    </div><!-- input-group -->
+    </div><!-- form-group -->
+    <div class="form-group">
+<label for="inputdefault">Passward</label>
+    <div class="input-group">     
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  type="password" class="form-control" name="email" placeholder="Passward">
+    </div><!-- input-group -->
+    </div><!-- form-group -->
+    <div class="form-group">
+<label for="inputdefault">Confrim Passward</label>
+    <div class="input-group">     
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input  type="password" class="form-control" name="email" placeholder="Confrim Passward">
+    </div><!-- input-group -->
+    </div><!-- form-group -->
+    <div class="form-group">
+<label for="inputdefault">Select Your Profile picture</label>
+    <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+    </div><!-- form-group -->
+     <button type="button" class="btn btn-default btn-lg">
+      <i class="fa fa-sign-in" aria-hidden="true"></i> Login
+    </button>
+   </form>
+</div><!-- Login_boxSec -->
+<div class="paginationSec flt_left_w100">
+<ul class="pagination">
+  <li><a href="#">1</a></li>
+  <li class="active"><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+</ul>
+</div><!-- paginationSec -->
+</div><!-- col-sm-9 -->
+<div class="col-sm-3 vBorder_left">
+
+<div class="Swiget flt_left_w100">
+<h4 class="LvHeding_style"><span>Blog Category</span></h4>
+<ul class="blogLi flt_left_w100">
+<li><a href="javascript:void(0)"><span>Fornt end</span><em>(598)</em></a></li>
+<li><a href="javascript:void(0)"><span>Php</span> <em>(500)</em></a></li>
+<li><a href="javascript:void(0)"><span>Server site</span> <em>(500)</em></a></li>
+<li><a href="javascript:void(0)"><span>Fornt end</span> <em>(500)</em></a></li>
+<li><a href="javascript:void(0)"><span>Php</span> <em>(500)</em></a></li>
+<li><a href="javascript:void(0)"><span>Server site</span> <em>(500)</em></a></li>
+</ul>
+</div><!-- Swiget -->
+
+<div class="Swiget flt_left_w100">
+<h4 class="LvHeding_style"><span>Recent post</span></h4>
+<div class="media Cusmedia">
+  <div class="media-left">
+    <img src="images/male.png" class="media-object" style="width:60px">
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading"><a href="javascript:void(0);">How to Create Slider</a></h5>
+    <a href="javascript:void(0);" class="Author_Post">Jhoe Doe</a>
+    <a href="javascript:void(0);" class="Post_Date">20.02.2017</a>
+  </div>
+</div><!-- media -->
+<div class="media Cusmedia">
+  <div class="media-left">
+    <img src="images/male.png" class="media-object" style="width:60px">
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading"><a href="javascript:void(0);">Form validation</a></h5>
+    <a href="javascript:void(0);" class="Author_Post">Jhoe Doe</a>
+    <a href="javascript:void(0);" class="Post_Date">20.02.2017</a>
+  </div>
+</div><!-- media -->
+
+<div class="media Cusmedia">
+  <div class="media-left">
+    <img src="images/male.png" class="media-object" style="width:60px">
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading"><a href="javascript:void(0);">Jquery toggle</a></h5>
+    <a href="javascript:void(0);" class="Author_Post">Jhoe Doe</a>
+    <a href="javascript:void(0);" class="Post_Date">20.02.2017</a>
+  </div>
+</div><!-- media -->
+
+<div class="media Cusmedia">
+  <div class="media-left">
+    <img src="images/male.png" class="media-object" style="width:60px">
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading"><a href="javascript:void(0);">progaming update</a></h5>
+    <a href="javascript:void(0);" class="Author_Post">Jhoe Doe</a>
+    <a href="javascript:void(0);" class="Post_Date">20.02.2017</a>
+  </div>
+</div><!-- media -->
+</div><!-- Swiget -->
+<div class="Swiget flt_left_w100">
+<h4 class="LvHeding_style"><span>Blog Archived</span></h4>
+<ul class="blogLi flt_left_w100">
+<li><a href="javascript:void(0)">December 2016<em>(50)</em></a></li>
+<li><a href="javascript:void(0)">December 2016<em>(50)</em></a></li>
+<li><a href="javascript:void(0)">December 2016<em>(50)</em></a></li>
+<li><a href="javascript:void(0)">December 2016<em>(50)</em></a></li>
+<li><a href="javascript:void(0)">December 2016<em>(50)</em></a></li>
+<li><a href="javascript:void(0)">December 2016<em>(50)</em></a></li>
+</ul>
+</div><!-- Swiget -->
+
+</div><!-- col-sm-3 -->
+</div><!--container -->
+</article>
+<footer class="w100">
+<div class="container">
+<div class="col-sm-6"><div class="copyTxt">Copyright &copy; 2017 - All Rights Reserved.</div></div><!-- col-sm-6 -->
+<div class="col-sm-6 padr0">
+<div class="w100 fmenu_sec">
+<ul class="fMenu wauto">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Post</a></li>
+</ul>
+</div><!-- fmenu_sec -->
+</div><!-- col-sm-6 -->
+</div><!-- container -->
+</footer>
+<script>
+   
+    $("#file-1").fileinput({
+        uploadUrl: '#', // you must set a valid URL here else you will get an error
+        allowedFileExtensions: ['jpg', 'png', 'gif'],
+        overwriteInitial: false,
+        maxFileSize: 1000,
+        maxFilesNum: 10,
+        //allowedFileTypes: ['image', 'video', 'flash'],
+        slugCallback: function (filename) {
+            return filename.replace('(', '_').replace(']', '_');
+        }
+    });
+    /*
+     $(".file").on('fileselect', function(event, n, l) {
+     alert('File Selected. Name: ' + l + ', Num: ' + n);
+     });
+     */
+   
+    $(".btn-warning").on('click', function () {
+        var $el = $("#file-4");
+        if ($el.attr('disabled')) {
+            $el.fileinput('enable');
+        } else {
+            $el.fileinput('disable');
+        }
+    });
+    $(".btn-info").on('click', function () {
+        $("#file-4").fileinput('refresh', {previewClass: 'bg-info'});
+    });
+    /*
+     $('#file-4').on('fileselectnone', function() {
+     alert('Huh! You selected no files.');
+     });
+     $('#file-4').on('filebrowse', function() {
+     alert('File browse clicked for #file-4');
+     });
+     */
+    
+</script>
+</body>
+</html>
